@@ -20,13 +20,37 @@
 		line-height: inherit !important;
 	}
 
-	@media screen and (max-width: 680px) {
-		.img-max {
-			width: 100% !important;
-			max-width: 100% !important;
-			height: auto !important;
+	@media only screen and (max-width: 600px) {
+		.table2 {
+			display: none !important;
+			max-height:1012px !important;
+			max-width:320px !important;
+		}
+		.step{
+			padding: 0 0 28px 0 !important;
+		}
+		.logo1{
+			padding: 0 0 58px 0 !important;
+		}
+		.bemvindo1 {
+			display: none !important;
 		}
 
+		.bemvindo2 {
+			display: block !important;
+		}
+
+		.text1 {
+			display: none !important;
+		}
+
+		.text2 {
+			display: block !important;
+		}
+		.tablebg {
+			max-width: 320px !important;
+			max-height: 1012px !important;
+		}
 		.max-width {
 			max-width: 100% !important;
 		}
@@ -51,22 +75,25 @@
 
 	<table border="0" cellpadding="0" cellspacing="0" width="100%">
 		<tr>
-			<td align="center" valign="top" max-width="680px" background="bitmap@2x.jpg" bgcolor="#f2f2f2" style="background: #f2f2f2 url('bitmap@2x.jpg') ;  background-repeat: no-repeat; background-size: 680px 1140px; background-position: center top; padding: 38px 0 0 0;" class="mobile-padding">
-				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-height:1140px; max-width:680px;">
+			<td align="center" valign="top" max-width="680px" background="bitmap@2x.jpg" bgcolor="#f2f2f2" style="background: #f2f2f2 url('bitmap@2x.jpg') ;  background-repeat: no-repeat; background-size: 680px 1140px; background-position: center top; padding: 38px 0 0 0;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-height:1140px; max-width:680px;" class="tablebg" class="table2">
 					<tr>
-						<td align="center" valign="top" style="padding: 0 0 35px 0;">
-							<img src="step-outside-work-t_1@2x_1.png" width="386" height="12" border="0" style="display: block;">
+						<td align="center" valign="top" style="padding: 0 0 35px 0;" class="step">
+							<img src="step-outside-work-t_1@2x_1.png" width="386" height="12" border="0" style="display: block;" class="bemvindo1" >
+							<img src="step-outside-work-t_1@2x_1.png" width="271" height="9" border="0" style="display: none;" class="bemvindo2">
 						</td>
 					</tr>
 					<tr>
-						<td align="center" valign="top" style="padding: 0 0 90px 0;">
-							<img src="logo1.svg" width="219" height="39" border="0" style="display: block;">
+						<td align="center" valign="top" style="padding: 0 0 90px 0;" class="logo1">
+							<img src="logo1.svg" width="219" height="39" border="0" style="display: block;" class="bemvindo1">
+							<img src="logo1.svg" width="175" height="31" border="0" style="display: none;" class="bemvindo2">
 						</td>
 					</tr>
 					<tr>
 						<tr>
 							<td align="center" valign="top" style="padding: 0 0 442px 0;">
-								<img src="bem-vindo-comunida@2x.png" width="519" height="94" border="0" style="display: block;">
+								<img src="bem-vindo-comunida@2x.png" width="519" height="94" border="0" style="display: block;" class="bemvindo1">
+								<img src="bem-vindo-comunida@2x_2.png" width="221" height="99" border="0" style="display: none;" class="bemvindo2">
 							</td>
 						</tr>
 					</tr>
@@ -75,25 +102,34 @@
 		</tr>
 		<!--        Welcome text -->        
 		<tr>
-			<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2" class="mobile-padding">
+			<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2">
 				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
 					<tr>
 						<td align="center" bgcolor="#ffffff"">
 							<table cellspacing="0" cellpadding="0" border="0" width="100%">
 								<td align="center" valign="top" style="padding: 80px 0 22px 0;">
-									<img src="logo2.svg" width="40" height="37" border="0" style="display: block;">
+									<img src="logo2.svg" width="40" height="37" border="0" style="display: block;" class="bemvindo1">
+									<img src="logo2.svg" width="39" height="37" border="0" style="display: none;" class="bemvindo2">
 								</td>
 								<tr>
 									<td align="center" valign="top" style="padding: 0 0 36px 0;">
-										<img src="step-outside-work-t@2x_2.png" width="367" height="54" border="0" style="display: block;">
+										<img src="step-outside-work-t@2x_2.png" width="367" height="54" border="0" style="display: block;" class="bemvindo1">
+										<img src="step-outside-work-t@2x_2.png" width="237" height="35" border="0" style="display: none;" class="bemvindo2">
 									</td>
 								</tr>
 								<tr>
 									<td align="center" style="font-family: ArialMT, Arial;" "padding: 0 0 86px 0;">
-										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 16px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.5; letter-spacing: 1px; text-align: center; margin: 0 62px 28px 62px;">
+										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 16px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.5; letter-spacing: 1px; text-align: center; margin: 0 62px 28px 62px; display: block;" class="text1">
 											As newsletters da Comunidade Timberland entraram numa nova fase. Demos um passo para nos aproximarmos de todos os nossos membros, esperando que esta caminhada a façamos juntos.
 										</p>
-										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 16px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.5; letter-spacing: 1px; text-align: center; margin: 0 61px 86px 61px;">
+										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 14px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.57; letter-spacing: 1px; text-align: center; margin: 0 15px 28px 15px; display: none;" class="text2">
+											As newsletters da Comunidade Timberland entraram numa nova fase. Demos um passo para nos aproximarmos de todos os nossos membros, esperando que esta caminhada a façamos juntos.
+										</p>
+										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 16px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.5; letter-spacing: 1px; text-align: center; margin: 0 61px 86px 61px; display: block;" class="text1">
+											Para isso, temos uma nova linha de comunicação e muitas vantagens exclusivas para os nossos subscritores.<br>
+											Fica atento à tua caixa de e-mail, porque em breve podes ter ainda mais motivos para largar o computador ou o telemóvel e aproveitar o que de bom a cidade e a natureza nos oferecem. 
+										</p>
+										<p style="color: #857c7d; font-family: ArialMT, Arial; font-size: 14px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.57; letter-spacing: 1px; text-align: center; margin: 0 15px 86px 15px; display: none;" class="text2" >
 											Para isso, temos uma nova linha de comunicação e muitas vantagens exclusivas para os nossos subscritores.<br>
 											Fica atento à tua caixa de e-mail, porque em breve podes ter ainda mais motivos para largar o computador ou o telemóvel e aproveitar o que de bom a cidade e a natureza nos oferecem. 
 										</p>
@@ -208,7 +244,7 @@
 				</tr>
 				<!-- Condições -->
 				<tr>
-					<td align="center" valign="top" width="100%" background="screenshot-@2x.jpg" bgcolor="#f2f2f2" style="background: #f2f2f2 url('screenshot-@2x.jpg'); background-repeat: no-repeat; background-size: 100%; padding: 0 0 0 0;" class="mobile-padding">
+					<td align="center" valign="top" width="100%" background="screenshot-@2x.jpg" bgcolor="#f2f2f2" style="background: #f2f2f2 url('screenshot-@2x.jpg'); background-repeat: no-repeat; background-size: 100%; padding: 0 0 0 0;">
 						<table cellspacing="0" cellpadding="0" border="0" width="100%">
 							<tr>
 								<td align="center" style="font-family: ArialMT, Arial;" "padding: 0 0 86px 0;">
@@ -251,7 +287,7 @@
 				</table>
 				<!-- white betrend -->
 				<tr>
-					<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2" class="mobile-padding">
+					<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2">
 						<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:680px;">
 							<tr>
 								<td align="center" bgcolor="#ffffff"">
@@ -281,7 +317,7 @@
 				</tr>
 				<!-- dark footer -->
 				<tr>
-					<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2" class="mobile-padding">
+					<td align="center" height="100%" valign="top" width="100%" bgcolor="#f2f2f2">
 						<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:680px;">
 							<tbody style="display: table-row-group; vertical-align: middle;">
 								<tr>
