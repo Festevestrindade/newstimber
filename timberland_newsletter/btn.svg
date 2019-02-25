@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="218" height="52" viewBox="0 0 218 52">
-    <g fill="none" fill-rule="evenodd">
-        <rect width="218" height="52" fill="#282321" rx="26"/>
-        <path stroke="#F5A019" stroke-linecap="round" stroke-width="2" d="M48 22l3 4.5-3 4.5"/>
-        <text fill="#FFF" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" letter-spacing="1" transform="translate(61 18)">
-            <tspan x=".435" y="13">Encontrar loj</tspan> <tspan x="99.779" y="13">a</tspan>
-        </text>
-    </g>
-</svg>
